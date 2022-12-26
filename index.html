@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/common.css">
+	<title>lesson_</title>
+</head>
+
+<body>
+	<div class="wraper">
+		<header class="header">
+
+		</header>
+		<main class="page">
+			<section class="page__contact contact-form">
+				<div class="contact-form__container">
+					<div class="contact-form__illustration">
+						<img class="contact-form__img" src="img/line.svg" alt="illustration">
+					</div>
+					<div class="contact-form__block">
+						<div class="contact-form__heading heading">
+							<div class="contact-form__subtitle subtitle">Any questions?</div>
+							<div class="contact-form__title title">Drop us a line</div>
+						</div>
+						<form class="contact-form__forms forms" action="https://jsonplaceholder.typicode.com/posts"
+							method="post">
+							<div class="forms__line">
+								<label class="forms__label" for="first-name">First Name*</label>
+								<input class="forms__input" id="first-name" type="text" name="first-name" required
+									tabindex="1" placeholder="Your first name">
+							</div>
+							<div class="forms__line">
+								<label class="forms__label" for="last-name">Last Name*</label>
+								<input class="forms__input" id="last-name" type="text" name="last-name" required
+									tabindex="2" placeholder="Your last name">
+							</div>
+							<div class="forms__line">
+								<label class="forms__label" for="email">Email*</label>
+								<input class="forms__input" id="email" type="email" name="email" required tabindex="3"
+									placeholder="Your working email">
+							</div>
+							<div class="forms__line">
+								<label class="forms__label" for="phone">Phone</label>
+								<input class="forms__input" id="phone" type="tel" name="phone" required tabindex="4"
+									placeholder="Your phone number">
+							</div>
+							<div class="forms__line">
+								<label class="forms__label" for="message">Message*</label>
+								<textarea class="forms__area-textarea" id="message" name="message"
+									required tabindex="5" placeholder="Your message"></textarea>
+							</div>
+							<div class="forms__line">
+								<div class="forms__chk">
+									<label class="label-chk" for="agree"><span class="text-chk">I agree to receive communications from Createx Online School</span></label>
+									<input id="agree"  class="input-chk"  required value="yes" 
+										name="agree" type="checkbox">
+								</div>
+							</div>
+							<div class="forms__line">
+								<button class="button button-long" tabindex="7" type="submit"><span>Send
+										message</span></button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			
+			<section class="page__forms forms">
+				<div class="forms__container">
+
+					<form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form">
+						<div class="form__line">
+							<label class="form__label" for="name-01">ваше ім'я</label>
+							<input class="form__input" id="name-01" type="text" name="name" required tabindex="1"
+								placeholder="ім'я">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="pass-01">ваш пароль</label>
+							<input class="form__input" id="pass-01" type="password" name="pass" required tabindex="2"
+								placeholder="пароль">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="tel-01">ваш телефон</label>
+							<input class="form__input" id="tel-01" type="tel" name="tel-01" required tabindex="3"
+								placeholder="телефон">
+						</div>
+						<div class="form__line">
+							<label class="form__label" for="email-01">ваш E-mail</label>
+							<input class="form__input" id="email-01" type="email" name="email-01" tabindex="4"
+								placeholder="e-mail">
+						</div>
+						<div class="form__line">
+							<div class="form-title">Ваша стать</div>
+							<div class="form__radio">
+								<input checked class="form__input form__input_radio" id="gender-01" 
+									value="men" name="gender" type="radio">
+								<label class="form__label" for="gender-01">чоловік</label>
+							</div>
+							<div class="form__radio">
+								<input class="form__input form__input_radio" id="gender-02"
+									value="women" name="gender" type="radio">
+								<label class="form__label" for="gender-02">жінка</label>
+							</div>
+						</div>
+						<div class="form__line">
+							<textarea autocomplete="off" name="message" class="form__area"></textarea>
+						</div>
+						<div class="form__line">
+							<select name="list">
+								<option value="160">160см</option>
+								<option value="170">170см</option>
+								<option value="180">180см</option>
+
+							</select>
+						</div>
+						<div class="form__line">
+							<button class="button" type="submit"><span>Відправити</span></button>
+							<button class="button" type="reset"><span>Відмінити</span></button>
+						</div>
+					</form>
+
+				</div>
+			</section>
+			<!------------------------------------------------------------------------------------->
+		</main>
+		<footer class="footer">
+
+		</footer>
+	</div>
+</body>
+
+</html>
