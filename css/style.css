@@ -69,6 +69,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	row-gap: 24px;
+	margin-bottom:10px;
 }
 .forms__line {
 	flex: 0 1 50%;
